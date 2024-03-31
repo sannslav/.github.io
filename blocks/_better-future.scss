@@ -1,0 +1,54 @@
+.better-future {
+    background-color: rgba(143, 75, 23, 0.2);
+
+    &__body {
+        display: flex;
+        gap: 78.66px;
+        width: 1200px;
+        margin: 120px auto 100px;
+    }
+
+    &__text1 {
+        font-size: 37px;
+        line-height: 56px;
+        width: 308px;
+        height: 168px;
+    }
+
+    &__p {
+        display: flex;
+        width: 853.32px;
+
+    }
+
+        &__p1, &__p2 {
+            width: 426.66px;
+        }
+
+        &__text11, &__text21 {
+            @include small-text;
+            margin-top: 37px;
+        }
+
+        &__text12, &__text22 {
+            color: #1a0800a0;
+            font-size: 16px;
+            line-height: 27.2px;
+        }
+
+        &__text11, &__text12 {
+            margin-left: 40.34px;
+        }
+
+        &__text21, &__text22 {
+            margin-left: 39.69px;
+        }
+
+        &__text12 {
+            width: 346px;
+        }
+
+        &__text22 {
+            width: 334px;
+        }
+}
