@@ -1,0 +1,42 @@
+.set-yourself {
+    &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 103px;
+        width: 1200px;
+        margin: 115px auto 43px;
+    }
+
+    &__p {
+        font-size: 50px;
+        line-height: 58px;
+        width: 463px;
+        height: 174px;
+    }
+
+    &__points {
+        display: flex;
+    }
+
+        &__point1, &__point2, &__point3 {
+        width: 426.66px;
+        height: 219px;
+        }
+
+        &__text11, &__text21, &__text31 {
+            @include small-title;
+        }
+
+        &__text12, &__text22, &__text32 {
+            @include points-text;
+        }
+
+        &__text12 {
+            width: 326px;
+        }
+
+        &__text22, &__text32 {
+            width: 334px;
+        }
+
+}

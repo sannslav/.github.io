@@ -1,0 +1,31 @@
+.support{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 210px;
+        color: $black;
+    }
+
+    &__text1 {
+        font-size: 51px;
+        line-height: 56px;
+        width: 451px;
+        height: 112px;
+    }
+
+    &__text2 {
+        @include small-text;
+        width: 478px;
+        height: 82px;
+        margin-top: 31px;
+    }
+
+    &__button {
+        @include request-access;
+        margin-top: 34px;
+    }
+}

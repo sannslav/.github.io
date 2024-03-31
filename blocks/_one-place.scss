@@ -1,0 +1,37 @@
+.one-place {
+    background-color: rgba(143, 75, 23, 0.08);;
+    display: flex;
+    gap: 120px;
+    overflow: hidden;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: auto;
+        color: $black;
+    }
+
+    &__text1 {
+        font-size: 48px;
+        line-height: 56px;
+        width: 413px;
+        height: 112px;
+    }
+
+    &__text2 {
+        @include small-text;
+        width: 441px;
+        height: 55px;
+        margin-top: 31px;
+    }
+
+    &__button {
+        @include request-access;
+        margin-top: 34px; margin-bottom: 200px;
+    }
+    &__img {
+        overflow: hidden;
+        width: 639px;
+    }
+}
